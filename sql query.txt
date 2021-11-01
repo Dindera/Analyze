@@ -1,0 +1,9 @@
+SELECT visitorId, visitNumber, visitId,fullVisitorId, socialEngagementType, 
+ visitStartTime, date, totals.visits, 
+ totals.transactions, totals.transactionRevenue,
+ totals.hits, totals.pageviews,
+ totals.newVisits,
+ totals.screenviews,
+ totals.timeOnSite,
+ totals.bounces, totals.sessionQualityDim,
+ totals.timeOnScreen FROM `bigquery-public-data.google_analytics_sample.ga_sessions_20170801`
