@@ -7,3 +7,11 @@ services:
       - "4040-4080:4040-4080"
     volumes:
       - ~:/home/jovyan/work
+  # web:
+  #   build: .
+  #   ports:
+  #     - "5000:5000"
+  #   volumes:
+  #     - .:/OneDrive/Documents/Research Project/Analyze
+  #   environment:
+  #     FLASK_ENV: development
